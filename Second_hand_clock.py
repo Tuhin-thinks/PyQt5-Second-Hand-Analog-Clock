@@ -19,7 +19,7 @@ class AnalogClock(QWidget):
     ])
     hourColor = QColor(127, 0, 127)
     minuteColor = QColor(0, 100, 250, 200)
-    secondColor = QColor(105, 100, 100, 150)
+    secondColor = QColor(195, 0, 0, 150)
     def __init__(self, parent=None):
         super(AnalogClock, self).__init__(parent)
         timer = QTimer(self)
